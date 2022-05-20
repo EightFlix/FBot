@@ -18,6 +18,4 @@ __help__ = """
 
 ❍ /admincache - Refresh admin list
 =>>   *Use*
-1) Add [Techno](https://t.me/Techno_x_robot) in your group to admin with all permission
-2) Add Assistant I'd to your group [click here](https://t.me/Technomusicassistant)
-"""
+ Powered By [YourX](https://t.me/YourX)"""
