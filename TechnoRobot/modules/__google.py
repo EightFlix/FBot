@@ -219,5 +219,5 @@ __help__ = """
 ✮ /imdb <Movie name>*:* Get full info about a movie with imdb.com
 ➤ Unmei <query>*:* Unmei answers the query
 
-  💡Ex: `Unmei where is Japan?`
+  💡Ex: `where is Japan?`
 """
