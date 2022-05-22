@@ -219,10 +219,10 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/Technobotsupport"), 
+                [[InlineKeyboardButton(text="Devloper", url="t.me/YourX"), 
                  ],
                  [
-                  InlineKeyboardButton(text="ᴀssɪsᴛᴀɴᴛ", url="t.me/Technomusicassistant"),]]              
+                  InlineKeyboardButton(text="Team", url="t.me/TeamYourX"),]]              
                   
             ),
         )
@@ -389,8 +389,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Techno*
-                 \nHere is the [Source Code](https://github.com/Team-techno) .""",
+            text=""" Hi..🤗 I'm *Bot*
+                 \nHere is the [Devloper](https://t.me/YourX) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
