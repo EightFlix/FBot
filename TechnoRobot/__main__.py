@@ -74,14 +74,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [💓](https://telegra.ph/file/00c65e044103c32aeb080.jpg), ɪᴍ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help Powered by:- @YourX   
+Hello *{}*, My name is *{}*! 
+A telegram group management bot. I'm here to help you to manage your groups.
+I have lots of handy features such as:
+1. Warning system
+2. Artificial intelligence
+3. Flood control system
+4. Note keeping system
+5. Filters keeping system
+6. Approvals and much more.
+⚡ Powered by @YourX 😎
+So what are you waiting for?
+*Add me in your groups and give me full rights to make me function well.*  
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/LnmuSupportBot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="amelia_"),
@@ -99,7 +109,7 @@ HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` Group Management Bot [🙋‍♀️](https://telegra.ph/file/00c65e044103c32aeb080.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-techno_IMG = "https://telegra.ph/file/329647a798cccb101aecf.jpg"
+techno_IMG = "https://telegra.ph/file/7998e6330159cd5064382.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @YourX\
