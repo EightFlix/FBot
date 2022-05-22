@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import urllib
-from  TechnoRobot import telethn as tbot
 import glob
 import io
 import os
@@ -8,22 +7,26 @@ import re
 import aiohttp
 import urllib.request
 from urllib.parse import urlencode
+from urllib.error import URLError, HTTPError
 import requests
 from bs4 import BeautifulSoup
 from PIL import Image
 from search_engine_parser import GoogleSearch
-
+from telegram.ext import CallbackContext, run_async
 import bs4
 import html2text
+from telegram import Update
 from bing_image_downloader import downloader
 from telethon import *
 from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from TechnoRobot import *
-
-from TechnoRobot.events import register
+from DestinyBot import *
+from DestinyBot.modules.disable import DisableAbleCommandHandler
+from DestinyBot.events import register
+from DestinyBot import telethn as tbot
+from DestinyBot.modules.helper_funcs.alternate import typing_action
 
 opener = urllib.request.build_opener()
 useragent = "Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36"
