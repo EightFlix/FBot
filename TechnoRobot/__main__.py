@@ -106,7 +106,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` Group Management Bot [🙋‍♀️](https://telegra.ph/file/00c65e044103c32aeb080.jpg)
+`ʜɪ.. ɪ'ᴍ` Group Management Bot [🙋‍♀️](https://telegra.ph/file/7998e6330159cd5064382.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 techno_IMG = "https://telegra.ph/file/7998e6330159cd5064382.jpg"
