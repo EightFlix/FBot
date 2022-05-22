@@ -22,11 +22,11 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from DestinyBot import *
-from DestinyBot.modules.disable import DisableAbleCommandHandler
-from DestinyBot.events import register
-from DestinyBot import telethn as tbot
-from DestinyBot.modules.helper_funcs.alternate import typing_action
+from TechnoRobot import *
+from TechnoRobot.modules.disable import DisableAbleCommandHandler
+from TechnoRobot.events import register
+from TechnoRobot import telethn as tbot
+from TechnoRobot.modules.helper_funcs.alternate import typing_action
 
 opener = urllib.request.build_opener()
 useragent = "Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36"
