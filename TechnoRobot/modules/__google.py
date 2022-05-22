@@ -69,7 +69,7 @@ async def img_sampler(event):
     jit = f'"{query}"'
     downloader.download(
         jit,
-        limit=4,
+        limit=8,
         output_dir="store",
         adult_filter_off=False,
         force_replace=False,
